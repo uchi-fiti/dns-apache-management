@@ -1,0 +1,10 @@
+
+zone "fitiavana.mg" {
+    type master;
+    file './etc/bind/zones/db.fitiavana.mg';
+};
+
+zone "hanaa.com" {
+    type master;
+    file './etc/bind/zones/db.hanaa.com';
+};
